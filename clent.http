@@ -1,0 +1,28 @@
+GET http://localhost:3030/anketa
+
+###
+GET  http://localhost:3030/anketa/bd2cba7b-8dcc-42b5-aeb3-ffddc6990af2
+
+###
+POST  http://localhost:3030/anketa
+Content-Type: application/json
+
+{
+    "name":"akmal",
+    "surname":"ortiqov",
+    "age":19,
+    "target":"salom"
+}
+
+###
+PUT http://localhost:3030/anketa/id
+
+{
+    "name":"akmal",
+    "surname":"ortiqov",
+    "age":19,
+    "target":"salom"
+}
+
+###
+DELETE http://localhost:3030/anketa/c79a77e1-a27b-4178-b2a5-be3bf35ce5f0
